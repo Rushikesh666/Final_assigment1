@@ -67,7 +67,7 @@ public class Base_class {
 		
 		
 			
-			FileUtils.copyFile(FromSource, new File("D://myfolder//TRASH-Copy//Screenshot.png"));
+			FileUtils.copyFile(FromSource, new File("C:\\Users\\admin\\git\\Final_assigment1\\automationpractice5\\Screenshots\\Screenshot.png"));
 			
 			
 			
