@@ -108,7 +108,7 @@ public class NavigationBar extends Base_class {
 
 		driver.switchTo().window((String) It.next());
 
-		Product_detailed_Page po = new Product_detailed_Page(driver);
+		Product_detailed_Page PDP = new Product_detailed_Page(driver);
 
 		while (It.hasNext()) {
 
@@ -116,9 +116,9 @@ public class NavigationBar extends Base_class {
 
 			driver.switchTo().window((String) It.next());
 
-			if (po.click_add_to_cart().isEnabled()) {
+			if (PDP.click_add_to_cart().isEnabled()) {
 			
-				po.click_add_to_cart().click();
+				PDP.click_add_to_cart().click();
 				
 				driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 
@@ -132,7 +132,7 @@ public class NavigationBar extends Base_class {
 		}
 
 		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
-		po.click_Proceed_to_checkOut_button().click();
+		PDP.click_Proceed_to_checkOut_button().click();
 
 	}
 
@@ -173,7 +173,7 @@ public class NavigationBar extends Base_class {
 
 		driver.switchTo().window((String) It.next());
 
-		Product_detailed_Page po = new Product_detailed_Page(driver);
+		Product_detailed_Page PDP = new Product_detailed_Page(driver);
 
 		while (It.hasNext()) {
 
@@ -181,9 +181,9 @@ public class NavigationBar extends Base_class {
 
 			driver.switchTo().window((String) It.next());
 
-			if (po.click_add_to_cart().isEnabled()) {
+			if (PDP.click_add_to_cart().isEnabled()) {
 			
-				po.click_add_to_cart().click();
+				PDP.click_add_to_cart().click();
 				
 				driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 
@@ -199,7 +199,7 @@ public class NavigationBar extends Base_class {
 
 		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 	
-		po.click_Proceed_to_checkOut_button().click();
+		PDP.click_Proceed_to_checkOut_button().click();
 		
 		Cart_Page CartObject = new Cart_Page(driver);
 
@@ -250,7 +250,7 @@ public class NavigationBar extends Base_class {
 
 		driver.switchTo().window((String) It.next());
 
-		Product_detailed_Page po = new Product_detailed_Page(driver);
+		Product_detailed_Page PDP = new Product_detailed_Page(driver);
 
 		while (It.hasNext()) {
 
@@ -258,9 +258,9 @@ public class NavigationBar extends Base_class {
 
 			driver.switchTo().window((String) It.next());
 
-			if (po.click_add_to_cart().isEnabled()) {
+			if (PDP.click_add_to_cart().isEnabled()) {
 			
-				po.click_add_to_cart().click();
+				PDP.click_add_to_cart().click();
 				
 				driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 
@@ -275,7 +275,7 @@ public class NavigationBar extends Base_class {
 
 		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 	
-		po.click_Proceed_to_checkOut_button().click();
+		PDP.click_Proceed_to_checkOut_button().click();
 		
 		Cart_Page CartObject = new Cart_Page(driver);
 
@@ -338,7 +338,7 @@ public class NavigationBar extends Base_class {
 
 		driver.switchTo().window((String) It.next());
 
-		Product_detailed_Page po = new Product_detailed_Page(driver);
+		Product_detailed_Page PDP = new Product_detailed_Page(driver);
 
 		while (It.hasNext()) {
 
@@ -346,9 +346,9 @@ public class NavigationBar extends Base_class {
 
 			driver.switchTo().window((String) It.next());
 
-			if (po.click_add_to_cart().isEnabled()) {
+			if (PDP.click_add_to_cart().isEnabled()) {
 				
-				po.click_add_to_cart().click();
+				PDP.click_add_to_cart().click();
 			
 				driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 
@@ -365,7 +365,7 @@ public class NavigationBar extends Base_class {
 
 		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 
-		po.click_Proceed_to_checkOut_button().click();
+		PDP.click_Proceed_to_checkOut_button().click();
 		
 		Cart_Page CartObject = new Cart_Page(driver);
 
@@ -432,16 +432,16 @@ public class NavigationBar extends Base_class {
 
 		driver.switchTo().window((String) It.next());
 
-		Product_detailed_Page po = new Product_detailed_Page(driver);
+		Product_detailed_Page PDP = new Product_detailed_Page(driver);
 
 		while (It.hasNext()) {
 
 			driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 
 			driver.switchTo().window((String) It.next());
-			if (po.click_add_to_cart().isEnabled()) {
+			if (PDP.click_add_to_cart().isEnabled()) {
 			
-				po.click_add_to_cart().click();
+				PDP.click_add_to_cart().click();
 				
 				driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 
@@ -456,7 +456,7 @@ public class NavigationBar extends Base_class {
 
 		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 	
-		po.click_Proceed_to_checkOut_button().click();
+		PDP.click_Proceed_to_checkOut_button().click();
 		
 		Cart_Page CartObject = new Cart_Page(driver);
 
@@ -530,16 +530,16 @@ public class NavigationBar extends Base_class {
 
 		driver.switchTo().window((String) It.next());
 
-		Product_detailed_Page po = new Product_detailed_Page(driver);
+		Product_detailed_Page PDP = new Product_detailed_Page(driver);
 
 		while (It.hasNext()) {
 
 			driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 
 			driver.switchTo().window((String) It.next());
-			if (po.click_add_to_cart().isEnabled()) {
+			if (PDP.click_add_to_cart().isEnabled()) {
 			
-				po.click_add_to_cart().click();
+				PDP.click_add_to_cart().click();
 				
 				driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 
@@ -554,7 +554,7 @@ public class NavigationBar extends Base_class {
 
 		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 		
-		po.click_Proceed_to_checkOut_button().click();
+		PDP.click_Proceed_to_checkOut_button().click();
 		
 		Cart_Page CartObject = new Cart_Page(driver);
 
@@ -631,16 +631,16 @@ public class NavigationBar extends Base_class {
 
 		driver.switchTo().window((String) It.next());
 
-		Product_detailed_Page po = new Product_detailed_Page(driver);
+		Product_detailed_Page PDP = new Product_detailed_Page(driver);
 
 		while (It.hasNext()) {
 
 			driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 
 			driver.switchTo().window((String) It.next());
-			if (po.click_add_to_cart().isEnabled()) {
+			if (PDP.click_add_to_cart().isEnabled()) {
 
-				po.click_add_to_cart().click();
+				PDP.click_add_to_cart().click();
 				
 				driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 
@@ -654,7 +654,7 @@ public class NavigationBar extends Base_class {
 
 		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 	
-		po.click_Proceed_to_checkOut_button().click();
+		PDP.click_Proceed_to_checkOut_button().click();
 		
 		Cart_Page CartObject = new Cart_Page(driver);
 
@@ -740,16 +740,16 @@ public class NavigationBar extends Base_class {
 
 		driver.switchTo().window((String) It.next());
 
-		Product_detailed_Page po = new Product_detailed_Page(driver);
+		Product_detailed_Page PDP = new Product_detailed_Page(driver);
 
 		while (It.hasNext()) {
 
 			driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 
 			driver.switchTo().window((String) It.next());
-			if (po.click_add_to_cart().isEnabled()) {
+			if (PDP.click_add_to_cart().isEnabled()) {
 
-				po.click_add_to_cart().click();
+				PDP.click_add_to_cart().click();
 				
 				driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 
@@ -763,7 +763,7 @@ public class NavigationBar extends Base_class {
 
 		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 	
-		po.click_Proceed_to_checkOut_button().click();
+		PDP.click_Proceed_to_checkOut_button().click();
 		
 		Cart_Page CartObject = new Cart_Page(driver);
 
@@ -859,16 +859,16 @@ public class NavigationBar extends Base_class {
 
 		driver.switchTo().window((String) It.next());
 
-		Product_detailed_Page po = new Product_detailed_Page(driver);
+		Product_detailed_Page PDP = new Product_detailed_Page(driver);
 
 		while (It.hasNext()) {
 
 			driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 
 			driver.switchTo().window((String) It.next());
-			if (po.click_add_to_cart().isEnabled()) {
+			if (PDP.click_add_to_cart().isEnabled()) {
 			
-				po.click_add_to_cart().click();
+				PDP.click_add_to_cart().click();
 				
 				driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 
@@ -882,7 +882,7 @@ public class NavigationBar extends Base_class {
 
 		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 	
-		po.click_Proceed_to_checkOut_button().click();
+		PDP.click_Proceed_to_checkOut_button().click();
 		
 		Cart_Page CartObject = new Cart_Page(driver);
 
